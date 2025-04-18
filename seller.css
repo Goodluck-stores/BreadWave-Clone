@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* height: 100%; */
+    width: 100%;
+    font-family: cofo-sans-variable, sans-serif;
+    font-weight: 600;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 103px;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    background-color: white;
+}
+.scrolled-nav{
+    background-color: black;
+}
+.top-navbar{
+    display: flex;
+    width: 100%;
+    height: 28px;
+    background-color: white;
+    padding: 5px 93px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 275px;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+.logo img{
+    /* display: flex; */
+    height: 22px;
+    align-self: center;
+}
+.nav-container{
+    display: flex;
+    gap: 110px;
+    align-items: center;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 15px;
+}
+.menu-bar .menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    /* height: 20px; */
+    align-items: center;
+    padding-bottom: 4px;
+    /* background-color: yellowgreen; */
+}
+.menu-bar .menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 14.8px;
+    letter-spacing: 0.7px;
+    line-height: 10px;
+    font-weight: 540;
+    display: flex;
+    align-items: center;
+}
+.sign-up > .login-button{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.sign-up .menu-items .menu-links{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 100px;
+    letter-spacing: 0.15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+}
+.hovered-menu{
+    background-color: white;
+    height: 200px;
+    width: 170px;
+    position: absolute;
+    left: 285px;
+    top: 17px;
+    padding: 30px 25px 0px;
+    display: none;
+}
+.dropdown-items-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.menu-items:hover .hovered-menu{
+    display: block;
+    box-shadow: 0px 1px 10px grey;
+}
+.hovered-menu .dropdown-items .hovered-links{
+    color: black;
+}
+.coming-soon{
+    background-color: #f07d22;
+    color: white;
+    font-size: 10px;
+    width: 80px;
+    text-align: center;
+    padding: 5px 0 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+.notion-free{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 105px;
+    letter-spacing: -.04em;
+    padding-bottom: 5px; 
+}
+.request{
+    color: black;
+    font-weight: 505;
+    block-size: 20px;
+}
+.hambuger{
+    display: none;
+}
+.header-container1{
+    height: 120vh;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+}
+.text-wrapper-holder{
+    margin-top: 64px;
+    width: 100%;
+    /* padding: 20px; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.text-wrapper-holder .header-text-wrapper{
+    background-color: red;
+    width: 450px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.header-text-wrapper .Get-paid > h2{
+    font-family: "Recoleta Bold";
+    line-height: 1.1;
+    letter-spacing: 0.7px;
+    font-size: 47.5px;
+    font-weight: 600;
+    /* width: 500px; */
+}
+.favicon-img{
+    height: 14px;
+    width: 14px;
+}
+.text-holder{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    /* background-color: blue; */
+    margin-left: 1px;
+}
+.text-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.text-holder > h4{
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-weight: 540;
+    /* color: white;    */
+}
+.explore{
+    margin-top: 16px;
+}
+.explore > a{
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+}
+.explore .explores > img{
+    transition: ease;
+    transition-duration: .3s;
+}
+.explore .explores:hover img{
+    transform: translateX(5px);
+}
+.seller-holder .text-wrap .seller{
+    background-color: #f1e7fd;
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 17px;
+    color: #7d22f0;
+    line-height: 1.1;
+}
